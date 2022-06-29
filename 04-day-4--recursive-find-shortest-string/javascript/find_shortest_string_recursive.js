@@ -15,8 +15,6 @@ function findShortestStringRecursive(arr) {
 
   const res = findShortestStringRecursive(arr.slice(1));
 
-  // return arr[0].length <= res.length ? arr[0] : res;
-
   if (arr[0].length <= res.length) {
     return arr[0];
   } else {
